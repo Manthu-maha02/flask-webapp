@@ -23,13 +23,18 @@ project-root/
 
 ## 🚀 Getting Started
 
-### 1. Set Up GitHub Codespace
+### 1. Set Up GitHub Codespace and creating a environment
 - Open this repository in GitHub.
 - Click **Code > Open with Codespaces** > **Create codespace on main**.
 - GitHub will launch a cloud-based dev environment with pre-installed Python.
+- open terminal and run
+```bash
+  python -m venv venv #create a virtual environment
+  venv\Scripts\Activate #open the virtual environment
+```
 
-### 2. Install Flask
-Open the terminal in Codespaces and run:
+### 2. Install Requirements
+In the termial run:
 
 ```bash
 pip install -r requirements.txt
@@ -55,3 +60,7 @@ Your app will be available at:
 📍 `http://127.0.0.1:5000`
 
 ---
+You can close the environment using
+```
+deactivate
+```
